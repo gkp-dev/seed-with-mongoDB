@@ -13,7 +13,7 @@ const launchServer = () => {
   //Port
   const port = process.env.PORT || 4300
   app.listen(port, () => {
-    console.log(`My app is listening on http://localhost:${port}...`)
+    console.log(`My app is listening on http://localhost:${port}/api ...`)
   })
 }
 
